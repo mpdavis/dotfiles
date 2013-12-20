@@ -1,0 +1,5 @@
+[user]
+	name = Michael Davis
+	email = mike.philip.davis@gmail.com
+[core]
+	excludesfile = /Users/mikedavis/.gitignore_global

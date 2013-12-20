@@ -1,0 +1,20 @@
+# Install native apps
+brew tap phinze/homebrew-cask
+brew install brew-cask
+
+function installcask() {
+        brew cask install "${@}" 2> /dev/null
+}
+
+installcask dropbox
+installcask google-chrome
+installcask hipchat
+installcask iterm2
+installcask shuttle
+installcask skype
+installcask sourcetree
+installcask spotify
+installcask sublime-text
+installcask transmission
+installcask virtualbox
+installcask vlc

@@ -1,0 +1,29 @@
+{
+	"terminal": "iTerm",
+	"launch_at_login": true,
+	"show_ssh_config_hosts": false,
+	"ssh_config_ignore_hosts": [],
+	"ssh_config_ignore_keywords": ["github", "bitbucket", "heroku"],
+	"hosts": [
+		{
+			"name": "Whatbox - Walnut",
+			"cmd": "ssh cetamega@walnut.whatbox.ca"
+		},
+		{
+			"Consus": [
+				 {
+					 "name": "frontdoor",
+					 "cmd": "ssh root@frontdoor.consus.pw"
+				 }
+			 ]
+		},
+		{
+			"Consus Labs": [
+				{
+					"name": "jira.consuslabs.net",
+					"cmd": "ssh michael@jira.consuslabs.com"
+				},
+			]
+		}
+	]
+}
